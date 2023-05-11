@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    margin-top: 250px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+    overflow-wrap: break-word;
+}
+
+
+.contenido{
+    padding: 20px;
+    overflow-wrap: break-word;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+div#nombre {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+div#nota {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+div#juicio {
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+div#lista {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    width: 100px;
+    margin-left: 40%;
+}

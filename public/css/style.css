@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    margin-top: 250px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid black;
+    overflow-wrap: break-word;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+input{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+button{
+    width: 150px;
+    margin: 10px;
+    height: 25px;
+}
+
+button:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px;
+}
+
+textarea{
+    padding: 10px;
+    height: 230px;
+    width: 325px;
+    resize: none;
+}
